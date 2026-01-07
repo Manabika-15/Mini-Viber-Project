@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Viber 🎧</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="music-container">
+    <h2 class="logo">Mini<span>Viber</span> 🎶</h2>
+
+    <div class="img-container">
+      <img src="song1.jpg" alt="Album Cover" id="cover" />
+    </div>
+
+    <h3 id="music-title">Song Title</h3>
+    <p id="artist">Artist Name</p>
+
+    <audio id="audio"></audio>
+
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <div class="controls">
+      <button id="prev" class="btn">⏮️</button>
+      <button id="play" class="btn play">▶️</button>
+      <button id="next" class="btn">⏭️</button>
+    </div>
+
+    <div class="bottom-controls">
+      <button id="loop" class="btn small">🔁</button>
+      <button id="uploadBtn" class="btn small">📁</button>
+      <input type="file" id="fileInput" accept="audio/*" hidden multiple />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
