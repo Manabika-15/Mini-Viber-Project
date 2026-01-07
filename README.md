@@ -5,6 +5,14 @@ It focuses on smooth audio playback, interactive controls, and a modern animated
 
 ---
 
+## 🚀 Live Demo
+
+You can view the live project by clicking the link below:
+
+[👉 View Live Project](https://manabika-15.github.io/Mini-Viber-Project/)
+
+---
+
 ## 🚀 Features
 - ▶️ Play / Pause, Previous & Next track controls  
 - 📊 Click-to-seek interactive progress bar  
